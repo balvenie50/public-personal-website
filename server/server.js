@@ -3,7 +3,6 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-// import transporter from './emailConfig.js';
 
 // Load environment variables
 dotenv.config();
