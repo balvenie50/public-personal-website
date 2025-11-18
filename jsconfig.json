@@ -12,6 +12,6 @@
     "checkJs": false,
     "allowJs": true
   },
-  "include": ["src/**/*", "vite.config.js", "tailwind.config.js", "server.js"],
+  "include": ["src/**/*", "vite.config.js", "tailwind.config.js", "server/server.js"],
   "exclude": ["node_modules", "dist", "dist-server"]
 }

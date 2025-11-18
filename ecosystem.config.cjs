@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'personal-website',
-    script: 'server.js',
+    script: 'server/server.js',
     interpreter: 'node',
     instances: 1,
     autorestart: true,

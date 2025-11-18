@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:backend": "NODE_ENV=development PORT=3000 nodemon server.js",
+    "dev:backend": "NODE_ENV=development PORT=3000 nodemon server/server.js",
     "dev:full": "concurrently \"npm run dev:backend\" \"npm run dev\"",
     "build": "vite build",
-    "start": "NODE_ENV=production PORT=3000 node server.js",
+    "start": "NODE_ENV=production PORT=3000 node server/server.js",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx",
     "lint:fix": "eslint . --ext .js,.jsx --fix"

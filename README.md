@@ -47,7 +47,7 @@ npm start
 ## Project structure
 
 - `src/` — frontend source (React components, pages, styles)
-- `server.js` — minimal Node server to serve the production `dist/` build
+- `server/server.js` — minimal Node server to serve the production `dist/` build
 - `deploy.sh`, `ecosystem.config.cjs` — deployment helper scripts
 - `env.example` — environment variable template
 
