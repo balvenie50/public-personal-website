@@ -1,0 +1,60 @@
+{
+  "name": "public-personal-website",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:backend": "NODE_ENV=development PORT=3000 nodemon server.js",
+    "dev:full": "concurrently \"npm run dev:backend\" \"npm run dev\"",
+    "build": "vite build",
+    "start": "NODE_ENV=production PORT=3000 node server.js",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint:fix": "eslint . --ext .js,.jsx --fix"
+  },
+  "description": "Personal portfolio website built with React, Vite and Tailwind CSS.",
+  "author": "Andy Ahn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balvenie50/public-personal-website"
+  },
+  "dependencies": {
+    "@radix-ui/react-aspect-ratio": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slider": "^1.2.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.4",
+    "@tanstack/react-query": "^5.81.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.0.1",
+    "lucide-react": "^0.523.0",
+    "nodemailer": "^7.0.4",
+    "react": "^18.3.1",
+    "react-day-picker": "^9.7.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.2.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "lovable-tagger": "^1.1.7",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.11",
+    "vite": "^5.4.1"
+  }
+}
